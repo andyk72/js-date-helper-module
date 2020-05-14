@@ -1,0 +1,27 @@
+{
+  "name": "date-helper",
+  "version": "1.0.0",
+  "description": "Dates helper functionalities",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx webpack"
+  },
+  "keywords": [
+    "date"
+  ],
+  "author": "andyk",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "moment": "^2.25.3"
+  }
+}
