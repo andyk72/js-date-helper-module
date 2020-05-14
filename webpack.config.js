@@ -6,6 +6,7 @@ module.exports = {
     filename: 'date-helper.js',
     path: path.resolve(__dirname, 'build'),
   },
+  watch: true,
   module: {
     rules: [
       {

@@ -23,7 +23,6 @@
  *  momentjs (https://momentjs.com/)
  */
 
-//var moment = require('moment');
 import moment from 'moment';
 
 const DATE_FORMAT = 'DD/MM/YYYY';
@@ -74,8 +73,8 @@ export const nextDayOfWeek = (dayOfWeek = 0, date = new Date()) => {
     throw 'Invalid day of week ' + dayOfWeek;
   }
   
-  var daysDiff = (dayOfWeek + (7 - date.getDay())) % 7;
-  var newDate = moment(date).add(daysDiff, 'day');
+  const daysDiff = (dayOfWeek + (7 - date.getDay())) % 7;
+  const newDate = moment(date).add(daysDiff, 'day');
   return newDate;
 
 };
