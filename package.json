@@ -22,6 +22,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "moment": "^2.25.3"
+    "moment": "^2.29.2"
   }
 }
